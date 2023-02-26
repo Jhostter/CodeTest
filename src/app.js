@@ -28,10 +28,10 @@ app.set("view engine", "hbs")
 app.use(myconnection(mysql, {
     connectionLimit: 100,
     host: 'db4free.net',
-    user: 'testuser1234',
+    user: 'user6to',
     password: '12345678',
     port: 3306,
-    database: 'profesor'
+    database: 'the_real_cafe'
 })) 
 
 app.use('/', personsRoutes);
